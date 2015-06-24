@@ -12,6 +12,12 @@ Let’s run stationboard.py
 ```
 [user]$ python stationboard.py -i <ID>
 ```
+#Get a location ID
+```
+http://transport.opendata.ch/v1/locations?query=<Stationname>
+E.g.
+http://transport.opendata.ch/v1/locations?query=Bern
+```
 
 #Source
 http://transport.opendata.ch/
